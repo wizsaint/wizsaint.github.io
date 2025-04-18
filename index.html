@@ -39,32 +39,18 @@ p.tagline {
   color: #8b949e;
 }
 
-section.projects {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-}
-
-.project-card {
+section.about {
+  max-width: 800px;
+  margin: 0 auto 3rem;
   background-color: var(--card-bg);
   padding: 1.5rem;
   border-radius: 0.75rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease;
 }
 
-.project-card:hover {
-  transform: translateY(-5px);
-}
-
-.project-card h3 {
-  margin-bottom: 0.5rem;
+section.about h2 {
+  margin-bottom: 1rem;
   color: var(--accent-color);
-}
-
-.project-card a {
-  color: var(--accent-color);
-  text-decoration: none;
 }
 
 footer {
@@ -79,25 +65,17 @@ footer {
 <body>
   <header>
     <h1>Muhammad Shahriar</h1>
-    <p class="tagline">3rd-year student of Islamic History & Culture | UI/UX Explorer | Cyberpunk by night</p>
-  </header>  <section class="projects">
-    <div class="project-card">
-      <h3>UI/UX Practice Hub</h3>
-      <p>A growing collection of design mockups, wireframes, and Figma prototypes as I explore UI/UX design.</p>
-      <a href="https://github.com/shahriar-ux/uiux-practice-hub">View on GitHub</a>
-    </div>
-    <div class="project-card">
-      <h3>History Notes Archive</h3>
-      <p>Well-organized notes on Islamic and Central Asian history, formatted for study and sharing with peers.</p>
-      <a href="https://github.com/shahriar-ux/history-notes">View on GitHub</a>
-    </div>
-    <div class="project-card">
-      <h3>Minimal Portfolio</h3>
-      <p>This very site. Built with raw HTML and CSS. No frameworks. No regrets.</p>
-      <a href="https://github.com/shahriar-ux/shahriar-ux.github.io">View on GitHub</a>
-    </div>
+    <p class="tagline">3rd-year student of Islamic History & Culture | UI/UX Explorer</p>
+  </header>  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      I’m Muhammad Shahriar, currently pursuing a Bachelor’s degree in Islamic History and Culture at the University of Dhaka. I'm deeply passionate about historical research—especially Islamic, Mongol, and Central Asian histories. Outside academia, I'm exploring UI/UX design and aspire to merge practical digital skills with a strong humanities background. I’m also preparing for the Bangladesh Civil Service (BCS) exam after completing my honours.
+    </p>
+    <p>
+      I'm learning to build things on the web—this portfolio is my starting point. I like my interfaces clean, my history deep, and my goals practical.
+    </p>
   </section>  <footer>
-    <p>&copy; 2025 Muhammad Shahriar. Built with passion and dark mode supremacy.</p>
+    <p>&copy; 2025 Muhammad Shahriar. Built with raw HTML & CSS.</p>
   </footer>
 </body>
 </html>
